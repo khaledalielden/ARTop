@@ -8,9 +8,10 @@
 
 using namespace std;
 
-// ======== potential field using green fuction ===========
-// ========   fast computational method   =================
-
+/* ======== potential field using green fuction ===========
+ This fast computational method depends on filling the matrix starting from the four corner edges at the same time. 
+ It checks whether the dimentions are even or odd then makes seperate loops to fill the odd number of the coloum and/or row that is located at the center of the matrix.
+*/
 int main(int argc, const char* argv[]) {
 
 	int nx = std::atoi(argv[1]); //484
