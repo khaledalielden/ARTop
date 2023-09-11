@@ -8,6 +8,9 @@
 
 using namespace std;
 
+// ======== potential field using green fuction ===========
+// ========   fast computational method   =================
+
 int main(int argc, const char* argv[]) {
 
 	int nx = std::atoi(argv[1]); //484
@@ -254,8 +257,8 @@ cout <<  Bx[rx][ry]<< "\n";
 
 */
 
-    
-// ==== print matix in a file =====
+/*    
+// ==== test, print matix in a file =====
 
 	string namex=path+"/Bxp_" + to_string(regionname) + "_"+to_string(fN)+".txt";
 	ofstream Bxp(namex);
@@ -285,7 +288,7 @@ cout <<  Bx[rx][ry]<< "\n";
     Byp.close();
   
 }
-
+*/
 
 
 
