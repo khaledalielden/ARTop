@@ -1,0 +1,5 @@
+#!/bin/bash
+g++ -c -O3 -std=gnu++14 -o potentialfiled.o  potentialfiled.cpp -fopenmp
+g++ -O3 -std=gnu++14 -o potentialfiled potentialfiled.o -fopenmp
+
+##./potentialfiled 484 187 2 3 956 "/home/khd2/Downloads/c++"
